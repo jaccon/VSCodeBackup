@@ -4,7 +4,7 @@ import getpass
 
 home = os.getenv("HOME")
 username = getpass.getuser() 
-VSCODE_Dumper_Dir = home+"/VSCodeDumper/"
+VSCODE_Dumper_Dir = home+"/VSCodeBackup/"
 
 
 if six.PY2:

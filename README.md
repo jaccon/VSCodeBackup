@@ -3,8 +3,8 @@ This python script working to make a easy backup to Visual Studio Code extension
 
 ## How to use ?
 
-First you need to run a backup using the option 1
-
+First you need to run a backup using the option 1. The script working and make a backup in home directory called
+VSCodeBackup
 
 ## Screenshot
 ![Screenshot](./screenshot.png)
