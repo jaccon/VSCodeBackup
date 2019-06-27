@@ -55,10 +55,11 @@ if( data == "3"):
     print "Reset a VSCode settings to factory defaults"
     os.system("rm -rf "+ home +"/.vscode")
     os.system("rm -rf " + home +"/Library/Application\ Support/Code/")
+    os.system("rm -rf " + home +"/Library/Preferences/com.microsoft.VSCode.helper.plist")
+    os.system("rm -rf " + home +"/Library/Preferences/com.microsoft.VSCode.plist")
     print ""
     print "All settings are reseted, good luck ;-) "
 
 if( data == "4"):
     print "Exit script"
     exit
-
